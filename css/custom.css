@@ -9,6 +9,7 @@ body {
 }
 
 .collection .collection-item.avatar {
+    min-height: 0px;
     height: 62px;
     border-bottom: 0px
 }
