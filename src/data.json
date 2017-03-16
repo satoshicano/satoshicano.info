@@ -1,0 +1,50 @@
+{
+  "Mail": {
+    "icon": "mail",
+    "value": "satoshicano@gmail.com",
+    "service": "Personal",
+    "url": "mailto:satoshicano+github@gmail.com"
+  },
+  "Info": {
+    "icon": "earth",
+    "value": "satoshicano.info",
+    "service": "Here",
+    "url": "https://satoshicano.info"
+  },
+  "GitHub": {
+    "icon": "gihtub",
+    "value": "satoshicano.info",
+    "service": "Here",
+    "url": "https://github.com/satoshicano"
+  },
+  "Qiita": {
+    "icon": "gihtub",
+    "value": "satoshicano.info",
+    "service": "Here",
+    "url": "https://github.com/satoshicano"
+  },
+  "Twitter": {
+    "icon": "gihtub",
+    "value": "satoshicano.info",
+    "service": "Here",
+    "url": "https://github.com/satoshicano"
+  },
+  "GPlus": {
+    "icon": "gihtub",
+    "value": "satoshicano.info",
+    "service": "Here",
+    "url": "https://github.com/satoshicano"
+  },
+  "Wantedly": {
+    "icon": "gihtub",
+    "value": "satoshicano.info",
+    "service": "Here",
+    "url": "https://github.com/satoshicano"
+  },
+  "Facebook": {
+    "icon": "gihtub",
+    "value": "satoshicano.info",
+    "service": "Here",
+    "url": "https://github.com/satoshicano"
+  }
+}
