@@ -1,14 +1,16 @@
 import React from 'react';
-import {Card, CardTitle, CardText} from 'material-ui/Card';
+import {Card, CardContent} from 'material-ui/Card';
+import Text from 'material-ui/Text';
 
-const Language = () => (
-  <Card>
-    <CardTitle title="Language"/>
-    <CardText>
-      <p>Japanese, Spanish Native Language</p>
-      <p>English</p>
-    </CardText>
-  </Card>
-);
-
-export default Language;
+export default function Language() {
+  return <Card>
+    <CardContent>
+      <Text type="headline" component="h2">Language</Text>
+      <Text type="body1">Japanese</Text>
+      <Text component="p">Native Language</Text>
+      <Text type="body1">Spanish</Text>
+      <Text component="p">Native Language</Text>
+      <Text type="body1">English</Text>
+    </CardContent>
+  </Card>;
+}

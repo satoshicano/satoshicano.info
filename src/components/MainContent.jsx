@@ -1,8 +1,8 @@
 import React from 'react';
 import ExperienceCard from './ExperienceCard';
 
-const MainContent = () => (
-  <ExperienceCard/>
-);
-
-export default MainContent;
+export default function MainContent() {
+  return <div style={{paddingTop: '64px'}}>
+    <ExperienceCard/>
+  </div>;
+}

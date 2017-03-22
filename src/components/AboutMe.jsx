@@ -1,23 +1,16 @@
 import React from 'react';
-import {Card, CardHeader} from 'material-ui/Card';
-import LinkComponent from './LinkComponent';
-import data from '../data.json';
+import {Card, CardContent} from 'material-ui/Card';
+import Text from 'material-ui/Text';
+import MyLinkList from './MyLinkList';
 
-const AboutMe = () => (
-  <Card>
-    <CardHeader
-      title="Satoshi Cano Nakamatsu"
-      subtitle="Web Application developer"
-    />
-    <LinkComponent obj={data.Mail}/>
-    <LinkComponent obj={data.Info}/>
-    <LinkComponent obj={data.GitHub}/>
-    <LinkComponent obj={data.Qiita}/>
-    <LinkComponent obj={data.Twitter}/>
-    <LinkComponent obj={data.GPlus}/>
-    <LinkComponent obj={data.Wantedly}/>
-    <LinkComponent obj={data.Facebook}/>
-  </Card>
-);
-
-export default AboutMe;
+export default function AboutMe() {
+  return <Card>
+    <CardContent>
+      <Text type="headline" component="h2">
+        Satoshi Cano Nakamatsu
+      </Text>
+      <Text type="body1">Web Application Developer</Text>
+      <MyLinkList/>
+    </CardContent>
+  </Card>;
+}

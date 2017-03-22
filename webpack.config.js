@@ -56,13 +56,21 @@ module.exports = {
     rules: [
       {
         test: /\.jsx$/,
+        exclude: /node_modules/,
         use: {
           loader: 'babel-loader',
           options: {
             presets: ['es2015', 'react', 'stage-1']
           }
-        },
-        exclude: /node_modules/
+        }
+      },
+      {
+        test: /\.css$/,
+        use: [
+          'style-loader',
+          'css-loader?modules&importLoaders=1',
+          'postcss-loader?sourceMap=inline'
+        ]
       },
     ]
   },
