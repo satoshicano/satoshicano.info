@@ -1,8 +1,14 @@
 import React from 'react';
-import ExperienceCard from './ExperienceCard';
+import InternshipCard from './InternshipCard';
+import EducationCard from './EducationCard';
+import PersonalProjectCard from './PersonalProjectCard';
+import PersonalSkillCard from './PersonalSkillCard';
 
 export default function MainContent() {
   return <div style={{paddingTop: '64px'}}>
-    <ExperienceCard/>
+    <InternshipCard/>
+    <EducationCard/>
+    <PersonalProjectCard/>
+    <PersonalSkillCard/>
   </div>;
 }
