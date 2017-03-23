@@ -21,10 +21,10 @@ export default function Root() {
           </Toolbar>
         </AppBar>
       </Layout>
-      <Layout item xs={12} sm={6}>
+      <Layout item xs={6} sm={3}>
         <LeftContent/>
       </Layout>
-      <Layout item xs={12} sm={6}>
+      <Layout item xs={12} sm={9}>
         <MainContent/>
       </Layout>
     </Layout>
