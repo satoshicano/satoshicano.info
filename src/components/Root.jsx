@@ -11,7 +11,6 @@ import MainContent from './MainContent';
 injectTapEventPlugin();
 
 export default function Root() {
-
   return <MuiThemeProvider>
     <Layout container gutter={24}>
       <Layout item xs={12}>

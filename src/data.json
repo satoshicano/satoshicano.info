@@ -1,4 +1,36 @@
 {
+  "Intership":[
+    {
+      "name": "Fringe81",
+      "place": "Tokyo, Japan",
+      "period": "4 days(Dec 2016)",
+      "work": "Developing prototype of Web Application(React, Redux, Node.js)"
+    },
+    {
+      "name": "Ateam",
+      "place": "Aichi, Japan",
+      "period": "2 days(Dec 2016)",
+      "work": "Developing Web Application."
+    },
+    {
+      "name": "All About",
+      "place": "Tokyo, Japan",
+      "period": "3 days(Sep 2016)",
+      "work": "Developing CMS(Laravel, MySQL, Docker)"
+    },
+    {
+      "name": "M3",
+      "place": "Tokyo, Japan",
+      "period": "Sep 2014(Aug 2016)",
+      "work": "Developing Web Application(Ruby on Rails, AngularJS, PostgreSQL)."
+    },
+    {
+      "name": "SoftComm",
+      "place": "Sapporo, Japan",
+      "period": "3 Days(Sep 2014)",
+      "work": "Developing Twitter Bot(Java)."
+    }
+  ],
   "LinkLists": [
     {
       "name": "Mail",
@@ -8,7 +40,8 @@
     {
       "name": "Here",
       "icon": "earth",
-      "url": "https://satoshicano.info"
+      "url": "https://satoshicano.info",
+      "divide": true
     },
     {
       "name": "GitHub",
@@ -18,7 +51,8 @@
     {
       "name": "Qiita",
       "icon": "qiita",
-      "url": "https://github.com/satoshicano"
+      "url": "https://github.com/satoshicano",
+      "divide": true
     },
     {
       "name": "Twitter",
@@ -29,7 +63,8 @@
       "name": "Google Plus",
       "icon": "gplus",
       "value": "satoshicano.info",
-      "url": "https://plus.google.com/+satoshicano"
+      "url": "https://plus.google.com/+satoshicano",
+      "divide": true
     },
     {
       "name": "Wantedly",
@@ -41,7 +76,8 @@
       "name": "Facebook",
       "icon": "facebook",
       "value": "satoshicano.info",
-      "url": "https://www.facebook.com/satoshicano"
+      "url": "https://www.facebook.com/satoshicano",
+      "divide": true
     }
   ]
 }
