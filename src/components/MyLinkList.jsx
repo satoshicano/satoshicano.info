@@ -7,10 +7,10 @@ import {
 } from 'material-ui/List';
 import Divider from 'material-ui/Divider';
 import InboxIcon from 'material-ui/svg-icons/inbox';
-import data from '../data.json';
+import {LinkLists} from '../data.json';
 
 export default function MyLinkList () {
-  const MyListItems = data.LinkLists.map((item)=>{
+  const MyListItems = LinkLists.map((item) => {
     return <div key={item.name}>
       <Divider absolute={item.divide}/>
       <a href={item.url} target='_blank'>

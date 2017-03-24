@@ -1,5 +1,42 @@
 {
-  "Intership":[
+  "Skills": [
+    {
+      "category": "Web Application",
+      "stack": "Ruby(Ruby on Rails), Python(Flask), PHP(Laravel, FuelPHP), HTML5, Javascript(React.js, Electron, AngularJS, TypeScript, Node.js)"
+    },
+    {
+      "category": "DBMS / NoSQL",
+      "stack": "PostgreSQL, MySQL, Redis"
+    },
+    {
+      "category": "Mobile",
+      "stack": "Android (Java)"
+    },
+    {
+      "category": "Other",
+      "stack": "Raspberry Pi, WebSocket, Docker, Chef"
+    }
+  ],
+  "Project": [
+    {
+      "name": "JointHub",
+      "description": "Web Service",
+      "url": "https://github.com/tsukalab/jointhub"
+    }
+  ],
+  "Education": [
+    {
+      "name": "Master of Media Architecture @Future University Hakodate",
+      "period": "2016 - 2018",
+      "relation": "Computer Science and Engineering"
+    },
+    {
+      "name": "System Information Science @Future University Hakodate",
+      "period": "2012 - 2016",
+      "relation": "Department of Media Architecture"
+    }
+  ],
+  "Internship":[
     {
       "name": "Fringe81",
       "place": "Tokyo, Japan",
