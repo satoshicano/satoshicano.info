@@ -1,0 +1,29 @@
+general:
+  branches:
+    ignore:
+      - master
+
+machine:
+  timezone: Asia/Tokyo
+  node:
+    version: v7.8.0
+  post:
+    - npm install -g npm
+
+dependencies:
+  pre:
+    - rm -rf node_modules
+  override:
+    - npm install
+
+deployment:
+  deploy:
+    branch: deploy
+    commands:
+      - npm run build
+      - git config --global user.name  "CircleCI"
+      - git config --global user.email "circleci@gh-pages.com"
+      - git add .
+      - git commit -m "Publish [ci skip]"
+      - git checkout -B master
+      - git push -u origin master --force
