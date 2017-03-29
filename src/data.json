@@ -72,7 +72,8 @@
     {
       "name": "Mail",
       "icon": "mail",
-      "url": "mailto:satoshicano@gmail.com"
+      "url": "mailto:satoshicano@gmail.com",
+      "divide": false
     },
     {
       "name": "Here",
@@ -83,7 +84,8 @@
     {
       "name": "GitHub",
       "icon": "github",
-      "url": "https://github.com/satoshicano"
+      "url": "https://github.com/satoshicano",
+      "divide": false
     },
     {
       "name": "Qiita",
@@ -94,7 +96,8 @@
     {
       "name": "Twitter",
       "icon": "twitter",
-      "url": "https://twitter.com/satoshicano"
+      "url": "https://twitter.com/satoshicano",
+      "divide": false
     },
     {
       "name": "Google Plus",
@@ -107,7 +110,8 @@
       "name": "Wantedly",
       "icon": "wantedly",
       "value": "satoshicano.info",
-      "url": "https://www.wantedly.com/users/18322664"
+      "url": "https://www.wantedly.com/users/18322664",
+      "divide": false
     },
     {
       "name": "Facebook",

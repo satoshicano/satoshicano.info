@@ -29,10 +29,14 @@ function imagePath(icon) {
   }
 }
 
+function isDivider(divide) {
+  return divide ? <Divider/> : null;
+}
+
 export default function MyLinkList () {
   const MyListItems = LinkLists.map((item) => {
     return <div key={item.name}>
-      <Divider absolute={item.divide}/>
+      {isDivider(item.divide)}
       <a href={item.url} target='_blank'>
         <ListItem button>
           <img alt={item.icon} src={imagePath(item.icon)} style={{width: '16px', height: '16px'}}/>
