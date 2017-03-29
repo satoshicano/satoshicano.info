@@ -1,28 +1,29 @@
 const path = require('path');
 const webpack = require('webpack');
+const LicenseWebpackPlugin = require('license-webpack-plugin');
 
 module.exports = {
-  entry: [
-    'react-hot-loader',
-    'webpack-dev-server/client?http://localhost:8080',
-    'webpack/hot/only-dev-server',
-    './src/index.jsx'
-  ],
+  entry: './src/index.jsx',
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'docs'),
     publicPath: '/'
   },
-  devServer: {
-    contentBase: 'docs',
-    historyApiFallback: true,
-    port: 8080,
-    hot: true
-  },
   plugins: [
-    new webpack.NamedModulesPlugin(),
-    new webpack.NoEmitOnErrorsPlugin(),
-    new webpack.HotModuleReplacementPlugin()
+    new webpack.optimize.UglifyJsPlugin({
+      minimize: true,
+      sourceMap: false,
+      compressor: {
+        warnings: false
+      },
+      output: {
+        comments: false
+      }
+    }),
+    new LicenseWebpackPlugin({
+      pattern: /^(.*)$/,
+      filename: 'licenses.txt'
+    })
   ],
   module: {
     rules: [
