@@ -73,52 +73,52 @@
       "name": "Mail",
       "icon": "mail",
       "url": "mailto:satoshicano@gmail.com",
-      "divide": false
+      "divide": true
     },
     {
       "name": "Here",
       "icon": "earth",
       "url": "https://satoshicano.info",
-      "divide": true
+      "divide": false
     },
     {
       "name": "GitHub",
       "icon": "github",
       "url": "https://github.com/satoshicano",
-      "divide": false
+      "divide": true
     },
     {
       "name": "Qiita",
       "icon": "qiita",
       "url": "https://github.com/satoshicano",
-      "divide": true
+      "divide": false
     },
     {
       "name": "Twitter",
       "icon": "twitter",
       "url": "https://twitter.com/satoshicano",
-      "divide": false
+      "divide": true
     },
     {
       "name": "Google Plus",
       "icon": "gplus",
       "value": "satoshicano.info",
       "url": "https://plus.google.com/+satoshicano",
-      "divide": true
+      "divide": false
     },
     {
       "name": "Wantedly",
       "icon": "wantedly",
       "value": "satoshicano.info",
       "url": "https://www.wantedly.com/users/18322664",
-      "divide": false
+      "divide": true
     },
     {
       "name": "Facebook",
       "icon": "facebook",
       "value": "satoshicano.info",
       "url": "https://www.facebook.com/satoshicano",
-      "divide": true
+      "divide": false
     }
   ]
 }
