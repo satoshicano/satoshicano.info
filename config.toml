@@ -7,7 +7,7 @@ builddrafts         = false
 canonifyurls        = true
 contentdir          = "content"
 layoutdir           = "layouts"
-publishdir          = "public"
+publishdir          = "docs"
 googleAnalytics   = "UA-78915534-2"
 # disqusshortname   = "xxx" # Enable Disqus for comments
 
