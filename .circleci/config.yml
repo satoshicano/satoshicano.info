@@ -11,7 +11,9 @@ jobs:
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
               hugo -t introduction
+              git config --global user.email "circle@ci.com"
+              git config --global user.name "CircleCi"
               git add docs/
-              git commit -m "build"
+              git commit -m "build: [ci skip]"
               git push origin master
             fi
