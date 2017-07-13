@@ -1,5 +1,5 @@
 +++
-date = "2017-03-09T13:19:25+08:00"
+date = "2017-07-14T2:23:25+08:00"
 draft = false
 title = "about"
 
@@ -11,8 +11,8 @@ I am interested in solving problems issues using web technology.
 
 My experiences was ...
 
-- Ruby on Rails,  Node.js, React.js, Electron, Polymer, AngularJS PostgreSQL, MySQL, Redis, Docker, Ansible, Chef
+- Ruby on Rails, Node.js, React.js, Electron, Polymer, AngularJS, Android, PostgreSQL, MySQL, Redis, Docker, Ansible, Chef
 
 Interest in...
 
-- Scala, Elm, Android, PWA
+- Scala, Elm, PWA

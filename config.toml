@@ -20,6 +20,7 @@ author        = "Satoshi Cano Nakamatsu" # Full name shows on blog post pages
 firstname     = "satoshicano" # First name shows in introduction on main page
 tagline       = "I'm a Web Developer." # Appears after the introduction
 introheight   = "large" # Input either 'medium' or 'large' or 'fullheight'
+theme         = "dark" # Choose 'light' or 'dark'
 avatar        = "img/profile.png" # Path to image in static folder eg. img/avatar.png
 email         = "satoshicano@gmail.com" # Shows in contact section, or leave blank to omit
 localtime     = true # Show your current local time in contact section
@@ -32,6 +33,7 @@ faviconfile   = "img/favicon.ico"
 highlightjs   = true # Syntax highlighting
 lang          = "en"
 footertext    = "Copyright© 2017 satoshicano. All Rights Reserved." # Text to show in footer (overrides default text)
+fadein        = true # Turn on/off the fade-in effect
 
 showblog        = false # Show Blog section on home page
 showallposts    = false # Set 'true' to list all posts on home page, or set 'false' to link to separate blog list page
