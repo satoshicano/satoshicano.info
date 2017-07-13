@@ -5,7 +5,6 @@ jobs:
       - image: felicianotech/docker-hugo:latest
     working_directory: ~/project
     steps:
-      - add_ssh_keys
       - deploy:
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
