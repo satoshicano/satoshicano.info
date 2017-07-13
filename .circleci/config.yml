@@ -1,0 +1,16 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: felicianotech/docker-hugo:latest
+    working_directory: ~/project
+    steps:
+      - add_ssh_keys
+      - deploy:
+          command: |
+            if [ "${CIRCLE_BRANCH}" == "master" ]; then
+              hugo -t introduction
+              git add docs/
+              git commit -m "build"
+              git push origin master
+            fi
