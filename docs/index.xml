@@ -6,7 +6,7 @@
     <description>Recent content on Profile</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 09 Mar 2017 13:19:25 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 14 Jul 2017 02:23:25 +0800</lastBuildDate>
     
 	<atom:link href="https://satoshicano.info/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,14 +14,14 @@
     <item>
       <title>about</title>
       <link>https://satoshicano.info/about/</link>
-      <pubDate>Thu, 09 Mar 2017 13:19:25 +0800</pubDate>
+      <pubDate>Fri, 14 Jul 2017 02:23:25 +0800</pubDate>
       
       <guid>https://satoshicano.info/about/</guid>
       <description>The 2nd year of a Master&amp;rsquo;s degree in Computer Science.
 I am interested in solving problems issues using web technology.
 My experiences was &amp;hellip;
- Ruby on Rails, Node.js, React.js, Electron, Polymer, AngularJS PostgreSQL, MySQL, Redis, Docker, Ansible, Chef  Interest in&amp;hellip;
- Scala, Elm, Android, PWA  </description>
+ Ruby on Rails, Node.js, React.js, Electron, Polymer, AngularJS, Android, PostgreSQL, MySQL, Redis, Docker, Ansible, Chef  Interest in&amp;hellip;
+ Scala, Elm, PWA  </description>
     </item>
     
     <item>
